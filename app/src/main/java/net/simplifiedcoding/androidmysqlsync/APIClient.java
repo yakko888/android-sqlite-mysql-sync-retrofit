@@ -16,7 +16,7 @@ public class APIClient {
 
 
         retrofit = new Retrofit.Builder()
-                .baseUrl("http://192.168.137.13/SqliteSync/")
+                .baseUrl("http://10.0.1.6/SqliteSync/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .client(client)
                 .build();

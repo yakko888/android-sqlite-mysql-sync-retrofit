@@ -30,6 +30,8 @@ public class NetworkStateChecker extends BroadcastReceiver {
 
         this.context = context;
 
+        apiInterface = APIClient.getClient().create(APIInterface.class);
+
         db = new DatabaseHelper(context);
 
         ConnectivityManager cm = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);

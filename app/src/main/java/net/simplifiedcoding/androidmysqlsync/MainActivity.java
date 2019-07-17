@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     * make sure you are using the ip instead of localhost
     * it will not work if you are using localhost
     * */
-    public static final String URL_SAVE_NAME = "http://192.168.137.13/SqliteSync/saveName.php";
+    public static final String URL_SAVE_NAME = "http://10.0.1.6/SqliteSync/saveName.php";
 
     //database helper object
     private DatabaseHelper db;
